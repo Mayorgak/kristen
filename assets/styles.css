@@ -1,0 +1,24 @@
+.hero {
+  background-image: url(../assets/images/hero.jpg); 
+  background-size: cover;
+	
+}
+
+.hero-body {
+   text-align: center;
+}
+
+.h1, .title {
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: 150%;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-image {
+  height: 200px;
+  width: 200px;
+}
