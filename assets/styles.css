@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../assets/images/hero.jpg); 
+  background-image: url(../assets/images/cork.jpg); 
   background-size: cover;
 	
 }
@@ -22,3 +22,7 @@
   height: 200px;
   width: 200px;
 }
+
+
+/* Navbar */
+
