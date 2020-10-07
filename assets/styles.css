@@ -1,8 +1,8 @@
-/* .hero {
-  background-image: url(../assets/images/cork.jpg); 
-  background-size: cover;
 
-} */
+
+
+/* hero */
+
 .hero {
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     /* background-size: 400% 400%;
@@ -14,22 +14,35 @@
 } 
 
 
-.hero-intro {
+.hero-intro, #name , #title {
     font-size: 32px;
-}
-.hero-body {
-   text-align: center;
+    font-family: 'Caveat';
+    color: black;
+
 }
 
-.h1, .title {
-    font-family: 'Caveat', cursive;
-    color: black;
+
+.hero-body {
+   text-align: center;
+   
+}
+ #name { 
+    font-size: 50px;
+} 
+
+
+
+.h1 , .title {
+    font-family: 'Caveat';
+    
   
     
 }
 
+
 .title {
-    font-size: 50px;
+    font-size: 80px;
+    color: black;
 }
 
 .section-heading {
@@ -38,7 +51,7 @@
 }
 
 #parallax {
-    background-image: url(./images/cork.jpg);
+    background-image: url(./images/work.jpg);
 
      min-height: 500px; 
     background-attachment: fixed; 
@@ -47,17 +60,17 @@
     background-size: cover;
 }
 
-/* @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}  */
+
+/* Cards */
+ 
+
+
+
+@media only screen and (max-width: 400px) {
+ #parallax {
+    background-image: url(./images/work.jpg);
+    position: cover;
+ }
 
 
 

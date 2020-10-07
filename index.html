@@ -14,13 +14,15 @@
 
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <link href="~bulma-carousel/dist/css/bulma-carousel.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./assets/styles.css">
   <script async type="text/javascript" src="../js/bulma.js"></script>
+  
 </head>
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar is-light  ">
+  <nav class="navbar is-light">
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
@@ -43,7 +45,7 @@
           </span>
           <span>Skills</span>
         </a>
-        <a class="navbar-item" href="#resume">
+        <a class="navbar-item " href="#resume">
           <span class="icon">
             <i class="fas fa-file-alt"></i>
           </span>
@@ -70,11 +72,11 @@
     <div class="hero-body" id="parallax">
       <div class="container">
         <p class="hero-intro">Hi, I'm </p>
-        <p class="title is-1">
+        <p class="title is-1" id="name">
           Kristen
         </p>
 
-        <h2 class="subtitle is-3">
+        <h2 class="subtitle is-3" id="title">
           Full Stack Web Developer
         </h2>
       </div>
@@ -86,10 +88,10 @@
     <!-- Title -->
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
-      <img  class="section-image" src="./assets/images/Kristen.png">
+      <img  class="section-image" alt="kristen" src="./assets/images/Kristen.png">
       <h4 class="subtitle is-5">Passion for creating.</h4>
       <div class="container">
-        <p> </p>
+        <p>I am currently pursuing an intensive Web Development Coding Certificate at the University of Central Florida. I'm passionate about learning new technologies and creating.  </p>
       </div>
     </div>
 
@@ -111,101 +113,146 @@
         <div class="column">
           <div class="box">
             <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
+              <h3 class="title is-5">Front End Web Development</h3>
+              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript.
+          
             </div>
+            
           </div>
         </div>
         <div class="column">
           <div class="box">
             <div class="content">
               <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+              Develop Back End application/service using Node.js and SQL server or Mongo DB databases.
             </div>
           </div>
         </div>
       </div>
 
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-            </div>
-          </div>
-        </div>
-      </div>
+     
     </div>
   </section>
 
-  <!-- Resume -->
+
+  <!-- Portfolio --> 
+       <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+      </div>  
+    <br>       
+<!-- Cards -->
+
+<section class="section" id="portfolio">
+    <div class="container" id="carousel-container">
+				<div id="carousel-demo" class="carousel">
+					<div class="item-1">
+          
+					<div class="item-2">
+          <div class="container portfolio-container">
+        <div class="columns">
+          <div class="column is-4">
+        
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Full stack application, created to allow end users to look up cocktail recipes.</small></span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="./assets/images/drinkology.png" alt="drinkology project">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a  targe="_blank"href="https://damp-peak-42313.herokuapp.com/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/Mayorgak/drinkology" class="card-footer-item">
+                  Code</a>
+              </footer>
+            </div> 
+            </div>
+
+            <div class="column is-4">
+        
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Full stack application, created to allow end users to look up cocktail recipes.</small></span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="./assets/images/drinkology.png" alt="drinkology project">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a  targe="_blank"href="https://damp-peak-42313.herokuapp.com/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/Mayorgak/drinkology" class="card-footer-item">
+                  Code</a>
+              </footer>
+            </div> 
+            </div>
+
+            <div class="column is-4">
+        
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Full stack application, created to allow end users to look up cocktail recipes.</small></span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="./assets/images/drinkology.png" alt="drinkology project">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a  targe="_blank"href="https://damp-peak-42313.herokuapp.com/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/Mayorgak/drinkology" class="card-footer-item">
+                  Code</a>
+              </footer>
+            </div> 
+            </div>
+            </div>
+            
+            
+          
+
+
+        <!-- Resume -->
   <section class="section" id="resume">
     <div class="section-heading">
       <h3 class="title is-2">Resume</h3>
-      <h4 class="subtitle is-5"></h4>
-      <a  target="_blank" href="https://docs.google.com/document/d/1RNY2OlTQamjhV8e71Un9LiZALocxHwQhzlRF4LTjeuY/edit" class="button is-link is-medium">
+  
+      <a class="button is-outlined"  id="button" target="_blank" href="https://docs.google.com/document/d/1RNY2OlTQamjhV8e71Un9LiZALocxHwQhzlRF4LTjeuY/edit" class="button is-link is-medium is-centered">
         <span class="icon">
           <i class="fas fa-file-alt"></i>
         </span>
         <span>Download My Resume</span>
       </a>
+     
     </div>
   </section>
 
-  <!-- Portfolio -->
-  <section class="section" id="portfolio">
-    <div class="container">
-      <div class="section-heading">
-        <h3 class="title is-2">Portfolio</h3>
-        <h4 class="subtitle is-5">My latest works</h4>
-      </div>
-      <br>
+  <!--Contact me-->
 
-      <div class="container portfolio-container">
-        <div class="columns">
-          <div class="column is-4">
-            <!-- admin -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Admin <small>(Light)</small></span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-danger">WIP</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="../images/admin.png" alt="Admin template screenshot">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/admin.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-          
+    <section class="section" id="contact">
+    <!-- Title -->
+    <div class="section-heading">
+      <h3 class="title is-2">Contact Me</h3>
+      
+    </div>
+
+    <div class="columns has-same-height is-gapless">
+      <div class="column">
+     
  
 
   <!-- Footer -->
 
-  </footer>
+ 
+ 
+  <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
