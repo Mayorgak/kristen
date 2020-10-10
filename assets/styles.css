@@ -76,16 +76,26 @@
 
 
 
-/* 
 @media only screen and (max-width: 400px) {
- #parallax {
+ /* #parallax {
     background-image: url(./images/work\ \(1\).jpg);
     /* position: cover; */
     
-   
-     */
- /* }
-} */
+ #contact-box{
 
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  -ms-transform: translate(-20%, -20%);
+  transform: translate(-20%, -20%);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  
+
+
+}
 
 
