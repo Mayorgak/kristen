@@ -2,14 +2,12 @@
 
 /* hero */
 
-
 .hero-intro, #name , #title {
     font-size: 50px;
     font-family: 'Caveat';
     color: black;
 
 }
-
 
 .hero-body {
    text-align: center;
@@ -24,13 +22,11 @@
 
 
 
-.h1 , .title {
+.h1 , #name, .title {
     font-family: 'Caveat';
     
-  
-    
 }
-.id {
+.id, .about {
     font-size: 20px;
     text-align: center;
 
@@ -41,9 +37,7 @@
 
 }
 
-.about {
-    width: 20%;
-}
+
 
 .title {
     font-size: 80px;
@@ -55,27 +49,17 @@
       font-size: 32px;
 }
 
-/* #skills-box {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    
-} */
-
-
-
-#parallax { 
+ 
+#parallax {
     background-image: url(./images/work\ \(1\).jpg);
-
      min-height: 500px; 
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} 
 
+}
+    
 
 /* resume */
 
@@ -87,7 +71,7 @@
 
 /* contact */
 
-#contact-box{
+#contact-box {
 
   margin: 0;
   position: absolute;
@@ -99,11 +83,11 @@
 
 
 
-
 @media only screen and (max-width: 400px) {
  /* #parallax {
     background-image: url(./images/work\ \(1\).jpg);
     /* position: cover; */
+ */
     
  #contact-box{
 
@@ -117,6 +101,7 @@
   justify-content: space-between; 
 }
 
+ 
 #name {
     font-size: 55px;
 }
@@ -128,17 +113,21 @@
     color: black;
 
 }
+
+.about {
+    font-size: 20px;
 }
 
+ }
 
 
-
-@media only screen and (max-width: 500px) {
- /* #parallax {
+ @media only screen and (max-width: 500px) {
+     #parallax {
     background-image: url(./images/work\ \(1\).jpg);
-    /* position: cover; */
+    position: cover; 
+  }
     
- #contact-box{
+ #contact-box {
 
   margin: 0;
   position: absolute;
@@ -150,4 +139,7 @@
   justify-content: space-between; 
 }
 
-}
+ }
+
+
+
