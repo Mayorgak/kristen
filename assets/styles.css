@@ -7,12 +7,13 @@
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     /* background-size: 400% 400%;
     animation: gradient 15s ease infinite; */
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     /* color: rgb(142, 151, 151);
     font-family: 'Days One', sans-serif; */
-} 
-
+    
+    
+}
 
 .hero-intro, #name , #title {
     font-size: 32px;
@@ -50,27 +51,41 @@
       font-size: 32px;
 }
 
-#parallax {
-    background-image: url(./images/work.jpg);
+#parallax { 
+    background-image: url(./images/work\ \(1\).jpg);
 
      min-height: 500px; 
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+} 
+
+/* contact */
+
+#contact-box{
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 
-/* Cards */
- 
 
 
-
+/* 
 @media only screen and (max-width: 400px) {
  #parallax {
-    background-image: url(./images/work.jpg);
-    position: cover;
- }
+    background-image: url(./images/work\ \(1\).jpg);
+    /* position: cover; */
+    
+   
+     */
+ /* }
+} */
 
 
 
