@@ -4,7 +4,7 @@
 
 
 .hero-intro, #name , #title {
-    font-size: 32px;
+    font-size: 50px;
     font-family: 'Caveat';
     color: black;
 
@@ -16,7 +16,9 @@
    
 }
  #name { 
-    font-size: 50px;
+    font-size: 70px;
+    color: #0a0a0a;
+    text-shadow: 4px 3px 0 #b8b5b5;
 } 
 
 
@@ -74,6 +76,15 @@
     background-size: cover;
 } 
 
+
+/* resume */
+
+#resume {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /* contact */
 
 #contact-box{
@@ -106,8 +117,20 @@
   justify-content: space-between; 
 }
 
+#name {
+    font-size: 55px;
+}
+
+
+.hero-intro,  #title {
+    font-size: 30px;
+    font-family: 'Caveat';
+    color: black;
 
 }
+}
+
+
 
 
 @media only screen and (max-width: 500px) {
