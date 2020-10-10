@@ -124,7 +124,12 @@
  @media only screen and (max-width: 500px) {
      #parallax {
     background-image: url(./images/work\ \(1\).jpg);
-    position: cover; 
+    background-size: contain; 
+     min-height: 500px; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
     
  #contact-box {
