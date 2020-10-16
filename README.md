@@ -1,4 +1,4 @@
-# Porfolio 
+# Porftolio 
 
 Portfolio created to showcase projects built. 👩🏽‍💻
 
