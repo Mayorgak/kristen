@@ -56,7 +56,6 @@
  
 #parallax {
     background-image: url(./images/mac.jpg);
-      height: 100%; 
      min-height: 500px; 
     background-attachment: fixed; 
     background-position: center;
@@ -98,7 +97,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     /* position: cover;  */
+   
+
+  
+
+   
+
+    
  
   }
  #contact-box{
